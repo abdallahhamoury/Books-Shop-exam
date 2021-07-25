@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>Books Shops</header>
+    <main>
+
+        <form id="myForm">
+            <fieldset>
+                <label for="bookName">Book Name</label>
+                <input type="text" name="bookName" id="bookName" required><br>
+
+                <label for="bookPrice">Book Price</label>
+                <select name="bookPrice" id="bookPrice">
+                    <option value="100">100JD</option>
+                    <option value="500">500JD</option>
+                    <option value="1000">1000JD</option>
+                </select><br>
+
+                <input id="submit" type="submit" value="submit" />
+
+            </fieldset>
+        </form>
+
+        <div id="container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Book Pages</th>
+                        <th>prize</th>
+                    </tr>
+                </thead>
+                <tfoot id="foot"></tfoot>
+            </table>
+        </div>
+
+    </main>
+    <footer> &copy; ASAC 2021 </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
